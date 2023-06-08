@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Description" content="Video Control" />
+    <title>Video Control</title>
+    <link rel="stylesheet" href="./stylesheet.css" />
+  </head>
+  <body>
+    <div class="preloader">
+      <img src="./preloader.gif" alt="preloader" />
+    </div>
+    <div class="container">
+      <video class="videoContainer" autoplay muted loop>
+        <source src="./videoplayback.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <h2 class="VideoTitle">Best Opening Race Video</h2>
+    <button class="switchBtn">
+      <span>Play</span>
+      <span>Pause</span>
+      <span class="switch"></span>
+    </button>
+    <script src="./script.js"></script>
+  </body>
+</html>
